@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="progress_unreach_color" format="color"></attr>
+    <attr name="progress_unreach_height" format="dimension"></attr>
+    <attr name="progress_reach_color" format="color"></attr>
+    <attr name="progress_reach_height" format="dimension"></attr>
+    <attr name="progress_text_color" format="color"></attr>
+    <attr name="progress_text_size" format="dimension"></attr>
+    <attr name="progress_text_offset" format="dimension"></attr>
+    <attr name="radius" format="dimension"></attr>
+    
+    
+    <declare-styleable name="HorizontalProgressBar">
+    <attr name="progress_unreach_color" ></attr>
+    <attr name="progress_unreach_height"></attr>
+    <attr name="progress_reach_color"></attr>
+    <attr name="progress_reach_height"></attr>
+    <attr name="progress_text_color"></attr>
+    <attr name="progress_text_size"></attr>
+    <attr name="progress_text_offset"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="RoundProgressBar">
+    <attr name="radius" ></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="SportRoundProgressBar">
+        <attr name="sport_reach_height" format="dimension"></attr>
+        <attr name="sport_reach_color" format="color"></attr>
+        <attr name="sport_unreach_height" format="dimension"></attr>
+        <attr name="sport_unreach_color" format="color"></attr>
+        <attr name="sport_text_size" format="dimension"></attr>
+        <attr name="sport_text_color" format="color"></attr>
+        <attr name="sport_sub_size" format="dimension"></attr>
+        <attr name="sport_sub_color" format="color"></attr>
+        <attr name="sport_radius" format="dimension"></attr>
+        <attr name="sport_padding" format="dimension"></attr>
+        <attr name="sport_sub" format="string"></attr>
+        <attr name="sport_title" format="string"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomBudgetProgress">
+        <attr name="budget_title_size" format="dimension"></attr>
+        <attr name="budget_title_color" format="color"></attr>
+        <attr name="budget_sub_size" format="dimension"></attr>
+        <attr name="budget_sub_color" format="color"></attr>
+        <attr name="budget_background_color" format="color"></attr>
+        <attr name="budget_background_radius" format="dimension"></attr>
+        <attr name="budget_background_default_color" format="color"></attr>
+    </declare-styleable>
+</resources>
